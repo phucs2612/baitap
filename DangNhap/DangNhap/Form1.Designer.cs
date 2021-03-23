@@ -28,33 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lbUser = new System.Windows.Forms.Label();
+            this.txtUser = new System.Windows.Forms.TextBox();
+            this.lbPassword = new System.Windows.Forms.Label();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lbUser
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(151, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lbUser.AutoSize = true;
+            this.lbUser.Location = new System.Drawing.Point(194, 44);
+            this.lbUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbUser.Name = "lbUser";
+            this.lbUser.Size = new System.Drawing.Size(51, 20);
+            this.lbUser.TabIndex = 0;
+            this.lbUser.Text = "label1";
             // 
-            // textBox1
+            // txtUser
             // 
-            this.textBox1.Location = new System.Drawing.Point(279, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 1;
+            this.txtUser.Location = new System.Drawing.Point(359, 36);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(127, 26);
+            this.txtUser.TabIndex = 1;
+            // 
+            // lbPassword
+            // 
+            this.lbPassword.AutoSize = true;
+            this.lbPassword.Location = new System.Drawing.Point(194, 102);
+            this.lbPassword.Name = "lbPassword";
+            this.lbPassword.Size = new System.Drawing.Size(120, 20);
+            this.lbPassword.TabIndex = 2;
+            this.lbPassword.Text = "Nhập Password";
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(359, 102);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(127, 26);
+            this.txtPassword.TabIndex = 3;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 253);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(841, 316);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.lbPassword);
+            this.Controls.Add(this.txtUser);
+            this.Controls.Add(this.lbUser);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -64,8 +88,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lbUser;
+        private System.Windows.Forms.TextBox txtUser;
+        private System.Windows.Forms.Label lbPassword;
+        private System.Windows.Forms.TextBox txtPassword;
     }
 }
 
